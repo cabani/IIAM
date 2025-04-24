@@ -1,9 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image et IA Multimodale</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
+  <div class="container">
+    <header>
+      <h1>Image et IA multimodale pour le diagnostic automatisé</h1>
+      <h2>Animé par : Karim Hammoudi, HDR (Université de Haute-Alsace, IRIMAS), Halim Benhabilès, HDR (IMT Nord Europe, CERI) et Adnane Cabani, HDR (Université Rouen Normandie, ESIGELEC-IRSEEM)</h2>
+    </header>
 
-<h1> Image et IA multimodale pour le diagnostic automatisé </h1>
+    <section>
+      <h3>Motivation</h3>
+      <p>
+        En santé de précision, de nouvelles architectures émergent régulièrement en apprentissage automatique basé image
+en vue de résoudre des tâches de classification de pathologies, de localisation d’infections, de quantification de la
+gravité de maladies. En particulier, ces architectures produisent de façon automatique des primitives, des indicateurs,
+voire des diagnostics en vue de permettre aux radiologues et cliniciens la contre-vérification de leur analyse. Depuis
+l’apparition de la COVID-19, les recherches en santé intelligente se sont intensifiées et ont conduit à la production de
+diverses architectures d’analyse pathologique de type ensembliste, translationnelle et multitâche visant notamment à
+faciliter les diagnostics et à diminuer les délais jusqu'à l'initiation d’un traitement. Toutefois, la nouveauté des
+problématiques d’analyse pathologique abordées et les capacités limitées d’annotation et d’étiquetage des données
+rendent souvent compliquée la constitution de jeux d’apprentissage statistiquement représentatifs des types
+d’instances visés. Pour ces raisons, nous explorons de nouvelles pistes de recherche pour diversifier les données à
+travers des approches d’augmentation, notamment superpixeliques. De plus, de nouvelles approches exploitant dans
+les phases d’apprentissage des images et données de natures variées ont vu le jour comme celles basées sur
+l’apprentissage multimodal ou l’apprentissage auto-supervisé (e.g. foundation model). Ces architectures à investiguer
+se veulent plus génériques quant à leur capacité à traiter des données variées et peuvent même produire en sortie,
+non pas un élément servant au diagnostic, mais un rapport détaillé et précis du cas pathologique analysé.
+      </p>
+    </section>
 
+    <section>
+      <h3>Description</h3>
+      <p>
+        L’objectif de ce GT est de fédérer une animation scientifique initiée en 2019 de façon tripartite (IRIMAS Mulhouse,
+        CNRS IEMN Lille, IRSEEM Rouen) pour le diagnostic automatisé de pathologies en imagerie radiologique et
+        microscopique. Le GT abordera ce thème en prenant appui sur des travaux matures issus de nos projets accessibles en
+        ligne SuperpixelGridMasks sur l’axe augmentation d’images e.g. [1,2] ainsi que ViTReg-IP et MViTReg-IP sur l’axe
+        apprentissage multimodal et approfondissement de méthodes de régression pour l’estimation de la sévérité de
+        pathologies e.g. [3,4,5] (cf. hyperliens). Ce GT insufflera une dynamique autour de ces axes permettant de remonter à
+        la communauté du GdR des débats et exposés en proposant des séminaires, d’une part par association aux journées
+        que nous organisons avec nos laboratoires respectifs et d’autre part par l’organisation de journées au sein du GdR IASIS.
+        Halim Benhabiles, nouvellement élu « Représentant école dans le comité d’animation de la communauté scientifique
+        santé du réseau IMT » permettra de renforcer l’activité du GT au niveau national. Le GT produira une librairie python
+        diffusée en libre accès pour l’augmentation superpixelique d’images ainsi qu’un article collectif en lien exposant nos
+        avancées en image et IA multimodale pour le diagnostic automatisé de données radiographiques, voire d’une autre
+        nature..
+      </p>
+    </section>
 
+    <section>
+      <h3>Plan de travail prévisionnel</h3>
+      <ul>
+        <li>Octobre 2024 : lancement d’un Appel À Contributions GdR (AAC à distance) sur « l’analyse d’images et l’IA
+        pour le diagnostic automatisé » par association aux journées « starter » de nos laboratoires. Selon
+        présentations, invitation à des expérimentations conjointes multimodales pour produire un article collectif.</li>
+        <li>Janvier 2025 : réunion en ligne du GT pour restitution des résultats, partage des premières fonctionnalités de
+        notre librairie d’augmentation d’images superpixellique pour initier la seconde phase d’expérimentations.</li>
+        <li>Avril 2025 : réunion en ligne du GT sur l’état d’avancement des travaux et rédaction d’un article présentant les
+        approches et résultats obtenus. Soumission de l’article sur une plateforme de prépublication.</li>
+        <li>Octobre 2025 : 2nd AAC, exposés et présentation de l’article prépublié. S’en suivra une réunion du GT pour
+        flécher les expérimentations à approfondir.</li>
+        <li>Janvier-Juin 2026 : réunion du GT pour intégrer les derniers résultats à l’article pour soumission (e.g. IEEE JBHI),
+        préparation d’un nouvel exposé pour le séminaire de rentrée, factorisation en interne de la librairie</li>
+        <li>Septembre 2026 : 3ème AAC, présentation de l’exposé de l’article soumis, présentation et mise à disposition
+        de la librairie produite à l’attention de la communauté, présentations invitées sur les sujets les plus porteurs
+        pour l’entreprise des travaux futurs.</li>
+      </ul>
+    </section>
+  </div>
 </body>
 </html>
